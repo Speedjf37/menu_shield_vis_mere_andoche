@@ -47,10 +47,10 @@ Gestion de menu construit à partir du projet :
 		Bouton LEFT
 
 Ecran principal
-Ligne 0 Affichage des paramètres / ou des 888888 pour le démmarrage 
-Ligne 1 Affichage des compteurs 
-Compteur pulse Tour permanent
-Compteur MVT (nb de tours VM) lorsque la butée est libre
+	* Ligne 0 Affichage des paramètres / ou des 888888 pour le démmarrage 
+	* Ligne 1 Affichage des compteurs 
+		Compteur pulse Tour permanent
+		Compteur MVT (nb de tours VM) lorsque la butée est libre
 
 
  le shield laisse libre les pins:
