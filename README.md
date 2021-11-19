@@ -47,22 +47,18 @@ Gestion de menu construit à partir du projet :
 		Bouton LEFT
 
 Ecran principal
-	Pour lancer le timer1 (valeurs H M S à saisir dans le menu)
-	Bouton UP   'R'->lance le moteur et le décompte
-	Pour la pause
-	Bouton UP   'P'
-	Arret
-	Bouton DOWN 'S'->stop le moteur et le décompte
+Ligne 0 Affichage des paramètres / ou des 888888 pour le démmarrage 
+Ligne 1 Affichage des compteurs 
+Compteur pulse Tour permanent
+Compteur MVT (nb de tours VM) lorsque la butée est libre
 
-Gestion du stepper
- MyStepper(2,3);
 
- * LIB StepperIndexer de CNCSERV (telecharger le fichier.zip et installer la LIB zip)
- https://github.com/CNCServ/StepperIndexer
- 
  le shield laisse libre les pins:
  * Digital 2,3 et 11,12,13 
  * Analog  A1, A2, A3, A4, A5
  * VIn Gnd(2) 5V 3V3 Reset
+ 
+ A1 entrée codeur
+ A2 entrée butée AR
  
  
